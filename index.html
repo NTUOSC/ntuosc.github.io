@@ -18,7 +18,7 @@
     <div class="contain-to-grid">
       <nav class="top-bar" data-topbar>
         <ul class="title-area">
-          <li class="name"><h1><a href="https://ntuosc.github.io">NTUOSC 臺大開源社</a></h1></li>
+          <li class="name"><h1><a href="https://ntuosc.github.io">NTUOSC</a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span>功能表</span></a></li>
         </ul>
         <section class="top-bar-section">
@@ -31,35 +31,83 @@
     </div>
     <section class="intro">
       <div class="row">
-        <div class="large-12 columns">
+        <div class="large-9 columns">
           <h1>國立臺灣大學開源社</h1>
           <h2>NTU Open Source Community</h2>
         </div>
+        <div class="large-3 action columns">
+          <a href="#join" class="large radius button">連署加入</a>
+        </div>
       </div>
     </section>
-    <div class="row">
-      <div class="large-12 columns">
-        <blockquote>
-          <p>面對高漲的物價、滿街的廢水、爆炸的小鴨，捍衛公民權利的你，也許會有蚍蜉撼樹之感？
-          如果有個理念，得以貫徹自由開放的價值，你願意把握它嗎？</p>
-
-          <p>開放原始碼蔚為全球潮流，從 Linux 到 Android，我們早已身處 open source 的世界中；
-          無論你對電腦了解與否，都能跟著全球的開源人改造社會。</p>
-        </blockquote>
-
-        <p><strong>歡迎加入臺大開源社！</strong>讓我們一起推廣開源理念，許世界更美好的未來！</p>
-
-
-        <form action="https://docs.google.com/forms/d/1D9_8O1NHehM1Z8wX6Na9d_d41N0JJ2FCiIIpHT17YcU/formResponse" method="POST" target="_blank">
-          <p>留下你的email，我們會及時通知你關於開源社的最新動態！</p>
-          <input type="email" name="entry.572370295" placeholder="you@ntu.edu.tw">
-          <input type="hidden" name="draftResponse" value="[,,&quot;2356109330927399233&quot;]">
-          <input type="hidden" name="pageHistory" value="0">
-          <input type="hidden" name="fbzx" value="2356109330927399233">
-          <input type="submit" name="submit" class="radius button" value="提交">
-        </form>
+    <section class="quote">
+      <div class="row">
+        <div class="large-12 columns">
+          <p>面對高漲的物價、滿街的廢水、爆炸的小鴨，捍衛公民權利的你，也許會有蚍蜉撼樹之感？<br>如果有個理念，得以貫徹自由開放的價值，你願意把握它嗎？</p>
+          <p>開放原始碼蔚為全球潮流，從 Linux 到 Android，我們早已身處 open source 的世界中；<br>無論你對電腦了解與否，都能跟著全球的開源人改造社會。</p>
+          <p><strong>歡迎加入臺大開源社！</strong>讓我們一起推廣開源理念，許世界更美好的未來！</p>
+        </div>
       </div>
-    </div>
+    </section>
+    <section class="join">
+      <div class="row">
+        <div class="medium-8 large-uncentered small-centered columns">
+          <h3>參與連署</h3>
+          <a name="join"></a>
+          <p>留下你的資料，讓我們一起完成屬於臺大人的開源夢！</p>
+              <form action="https://docs.google.com/forms/d/1D9_8O1NHehM1Z8wX6Na9d_d41N0JJ2FCiIIpHT17YcU/formResponse" method="POST" target="_blank">
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label class="right inline" for="petition-name">姓名</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <input type="text" id="petition-name" name="entry.2120036912" placeholder="張無忌" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label class="right inline" for="petition-dept">系級</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <input type="text" id="petition-dept" name="entry.1444826370" placeholder="法律法學一" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label class="right inline" for="petition-email">電子郵件</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <input type="email" id="petition-email" name="entry.572370295" placeholder="you@ntu.edu.tw" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-3 columns"></div>
+                  <div class="small-9 columns">
+                    <textarea type="text" id="petition-comment" name="entry.1647478455" placeholder="想說什麼嗎？"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-3 columns"></div>
+                  <div class="small-9 columns">
+                    <input type="submit" name="submit" class="right small radius button" value="提交">
+                    <label for="petition-promo">
+                      <input type="checkbox" id="petition-promo" name="entry.1092801249" value="&#26159;" checked>
+                      通知我開源社的最新動態
+                    </label>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="large-12 columns">
+          <p>© NTUOSC 2014</p>
+        </div>
+      </div>
+    </footer>
 
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>

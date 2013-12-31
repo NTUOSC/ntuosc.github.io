@@ -975,10 +975,10 @@ $topbar-link-bg-hover: #f7f7f7;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
-// $topbar-menu-icon-color: #fff;
-// $topbar-menu-link-color-toggled: #888;
-// $topbar-menu-icon-color-toggled: #888;
+$topbar-menu-link-color: #999;
+$topbar-menu-icon-color: #999;
+$topbar-menu-link-color-toggled: #222;
+$topbar-menu-icon-color-toggled: #222;
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
