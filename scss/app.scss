@@ -1,3 +1,14 @@
 @import "fonts";
 @import "settings";
 @import "foundation";
+@import "compass/css3";
+
+section.intro {
+	padding: 6em 0;
+	background: {
+		image: url('../images/intro.jpg');
+		repeat: no-repeat;
+		position: 50% 50%;
+	}
+	@include background-size(cover);
+}
