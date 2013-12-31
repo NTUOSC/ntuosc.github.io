@@ -3,6 +3,13 @@
 @import "foundation";
 @import "compass/css3";
 
+body > section, body > footer {
+	text-align: center;
+	@media #{$large-up} {
+		text-align: justify;
+	}
+}
+
 section.intro {
 	padding: 3rem 0;
 	@media #{$large-up} {
@@ -38,10 +45,6 @@ section.quote {
 		padding: 2rem 0 1rem;
 	}
 
-	text-align: center;
-	@media #{$large-up} {
-		text-align: justify;
-	}
 }
 
 section.join {
@@ -52,5 +55,4 @@ section.join {
 footer {
 	padding: 1rem 0;
 	color: #999;
-	text-align: center;
 }
