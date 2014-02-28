@@ -23,13 +23,13 @@ section.intro {
 
 	background: {
 		color: #6d9cd3;
-		image: url('../images/intro.jpg');
+		image: url('../images/spring.jpg');
 		repeat: no-repeat;
 		position: 50% 40%;
 	}
 	@include background-size(cover);
 
-	h1, h2 {
+	h1, h2, p, small {
 		color: #fff;
 		@include text-shadow(#000 0 0 10px);
 	}
