@@ -1,8 +1,8 @@
 {
-  "name": "foundation-compass-app",
-  "version": "0.0.1",
+  "name": "ntuosc-site",
+  "version": "0.14.10",
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "semantic": ">=0.19"
   }
 }
