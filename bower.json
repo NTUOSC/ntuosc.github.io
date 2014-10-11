@@ -3,6 +3,6 @@
   "version": "0.14.10",
   "private": "true",
   "dependencies": {
-    "semantic": ">=0.19"
+    "foundation": ">=5.4"
   }
 }
