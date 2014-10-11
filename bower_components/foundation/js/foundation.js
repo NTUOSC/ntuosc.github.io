@@ -278,7 +278,7 @@
   window.Foundation = {
     name : 'Foundation',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     media_queries : {
       small : S('.foundation-mq-small').css('font-family').replace(/^[\/\\'"]+|(;\s?})+|[\/\\'"]+$/g, ''),
@@ -630,7 +630,7 @@
   Foundation.libs.abide = {
     name : 'abide',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       live_validate : true,
@@ -854,8 +854,8 @@
             }
             $(el).triggerHandler('invalid');
           }
+          validations.push(el_validations[0]);
         }
-        validations.push(el_validations[0]);
       }
       validations = [validations.every(function(valid){return valid;})];
       return validations;
@@ -944,7 +944,7 @@
   Foundation.libs.accordion = {
     name : 'accordion',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       active_class: 'active',
@@ -1010,7 +1010,7 @@
   Foundation.libs.alert = {
     name : 'alert',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       callback: function (){}
@@ -1054,7 +1054,7 @@
   Foundation.libs.clearing = {
     name : 'clearing',
 
-    version: '5.4.6',
+    version: '5.4.3',
 
     settings : {
       templates : {
@@ -1613,14 +1613,20 @@
   Foundation.libs.dropdown = {
     name : 'dropdown',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       active_class: 'open',
-      disabled_class: 'disabled',
       mega_class: 'mega',
       align: 'bottom',
       is_hover: false,
+      smart_position: true,
+      smart_position_arrays: {
+        right:   ['right', 'bottom', 'top', 'left', 'right'],
+        left:    ['left', 'right', 'bottom', 'top', 'left'],
+        top:     ['top', 'right', 'bottom', 'left', 'top'],
+        bottom : ['bottom', 'top', 'right', 'left', 'bottom']
+      },
       opened: function(){},
       closed: function(){}
     },
@@ -1757,9 +1763,6 @@
     },
 
     toggle : function (target) {
-      if (target.hasClass(this.settings.disabled_class)) {
-        return;
-      }
       var dropdown = this.S('#' + target.data(this.data_attr()));
       if (dropdown.length === 0) {
         // No dropdown found, not continuing
@@ -1813,9 +1816,44 @@
 
     style : function (dropdown, target, settings) {
       var css = $.extend({position: 'absolute'},
-        this.dirs[settings.align].call(dropdown, target, settings));
+
+        this.position(dropdown, target, settings));
 
       dropdown.attr('style', '').css(css);
+    },
+    // return CSS property object
+    position: function(d, t, s) {
+      var res = {},
+        vp = {},
+        list = s.smart_position_arrays[s.align],
+        len = list.length,
+        dd_w = d.outerWidth(),
+        dd_h = d.outerHeight(),
+        o = d.offsetParent().offset();
+
+        if (s.smart_position) {
+          var $win = $(window);
+          vp.top =  $win.scrollTop();
+          vp.left = $win.scrollLeft();
+          vp.right  = vp.left + $win.width();
+          vp.bottom = vp.top + $win.height();
+
+          for (var i=0; i < len; i++) {
+            res = this.dirs[list[i]].call(d, t, s);
+            if (this.is_out(vp, res.top + o.top, res.left + o.left, dd_w, dd_h, 3) === false)
+              break;
+          }
+        }
+        else {
+          res = this.dirs[s.align].call(d, t, s);
+        }
+
+        return res;
+    },
+
+    is_out: function (vp, top, left, width, height, buffer) {
+      return (top < vp.top + buffer || left < vp.left + buffer
+           || top + height > vp.bottom - buffer || left + width > vp.right - buffer);
     },
 
     // return CSS property object
@@ -1879,6 +1917,7 @@
       }
     },
 
+
     // Insert rule to style psuedo elements
     adjust_pip : function (dropdown,target,settings,position) {
       var sheet = Foundation.stylesheet,
@@ -1940,7 +1979,7 @@
   Foundation.libs.equalizer = {
     name : 'equalizer',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       use_tallest: true,
@@ -2015,7 +2054,7 @@
   Foundation.libs.interchange = {
     name : 'interchange',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     cache : {},
 
@@ -2362,7 +2401,7 @@
   Foundation.libs.joyride = {
     name : 'joyride',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     defaults : {
       expose                   : false,     // turn on or off the expose feature
@@ -2467,10 +2506,8 @@
           this.end(this.settings.abort_on_close);
         }.bind(this))
 
-        .on("keyup.fndtn.joyride", function(e) {
-          // Don't do anything if keystrokes are disabled
-          // or if the joyride is not being shown
-          if (!this.settings.keyboard || !this.settings.riding) return;
+        .on("keyup.joyride", function(e) {
+          if (!this.settings.keyboard) return;
 
           switch (e.which) {
             case 39: // right arrow
@@ -2734,7 +2771,7 @@
         // skip non-existant targets
         } else if (this.settings.$li && this.settings.$target.length < 1) {
 
-          this.show(init, is_prev);
+          this.show();
 
         } else {
 
@@ -3278,7 +3315,7 @@
   Foundation.libs['magellan-expedition'] = {
     name : 'magellan-expedition',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       active_class: 'active',
@@ -3468,7 +3505,7 @@
   Foundation.libs.offcanvas = {
     name : 'offcanvas',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       open_method: 'move',
@@ -4019,7 +4056,7 @@
   Foundation.libs.orbit = {
     name: 'orbit',
 
-    version: '5.4.6',
+    version: '5.4.3',
 
     settings: {
       animation: 'slide',
@@ -4094,7 +4131,7 @@
   Foundation.libs.reveal = {
     name : 'reveal',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     locked : false,
 
@@ -4539,7 +4576,7 @@
   Foundation.libs.slider = {
     name : 'slider',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings: {
       start: 0,
@@ -4671,15 +4708,15 @@
       }
       $handle.attr('aria-valuenow', value);
 
-      if (settings.display_selector != '') {
-        $(settings.display_selector).each(function(){
-          if (this.hasOwnProperty('value')) {
-            $(this).val(value);
-          } else {
-            $(this).text(value);
-          }
-        });
-      }
+      // if (settings.input_id != '') {
+      //   $(settings.display_selector).each(function(){
+      //     if (this.hasOwnProperty('value')) {
+      //       $(this).val(value);
+      //     } else {
+      //       $(this).text(value);
+      //     }
+      //   });
+      // }
 
     },
 
@@ -4779,7 +4816,7 @@
   Foundation.libs.tab = {
     name : 'tab',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       active_class: 'active',
@@ -4834,7 +4871,14 @@
       S(window).on('hashchange.fndtn.tab', function (e) {
         e.preventDefault();
         self.handle_location_hash_change();
-      });
+
+      }).on('keyup', function (e) {
+        if (e.keyword == 9) {
+          // active tab
+          console.log(document.querySelector('[data-tab] .tab-title :focus'))
+        }
+      });
+      ;
     },
 
     handle_location_hash_change : function () {
@@ -4870,7 +4914,7 @@
             }
           } else {
             // Reference the default tab hashes which were initialized in the init function
-            for (var ind = 0; ind < self.default_tab_hashes.length; ind++) {
+            for (var ind in self.default_tab_hashes) {
               self.toggle_active_tab($('[' + self.attr_name() + '] > * > a[href=' + self.default_tab_hashes[ind] + ']').parent());
             }
           }
@@ -4968,13 +5012,13 @@
       tab_link.attr({"aria-selected": "true",  tabindex: 0});
       siblings.removeClass(settings.active_class)
       siblings.find('a').attr({"aria-selected": "false",  tabindex: -1});
-      target.siblings().removeClass(settings.active_class).attr({"aria-hidden": "true",  tabindex: -1});
-      target.addClass(settings.active_class).attr('aria-hidden', 'false').removeAttr("tabindex");
+      target.siblings().removeClass(settings.active_class).attr({"aria-hidden": "true",  tabindex: -1}).end().addClass(settings.active_class).attr('aria-hidden', 'false').find(':first-child').attr('tabindex', 0);
       settings.callback(tab);
+      target.children().attr('tab-index', 0);
       target.triggerHandler('toggled', [tab]);
       tabs.triggerHandler('toggled', [target]);
 
-      tab_link.off('keydown').on('keydown', interpret_keyup_action );
+      tab_link.on('keydown', interpret_keyup_action );
     },
 
     data_attr: function (str) {
@@ -4997,7 +5041,7 @@
   Foundation.libs.tooltip = {
     name : 'tooltip',
 
-    version : '5.4.6',
+    version : '5.4.3',
 
     settings : {
       additional_inheritable_classes : [],
@@ -5298,7 +5342,7 @@
   Foundation.libs.topbar = {
     name : 'topbar',
 
-    version: '5.4.6',
+    version: '5.4.3',
 
     settings : {
       index : 0,
