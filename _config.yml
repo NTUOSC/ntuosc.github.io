@@ -22,7 +22,7 @@ course:
 fb:
   page: https://www.facebook.com/NTUOSC/
   community: https://www.facebook.com/groups/ntuosc/
-
+  username: NTUOSC
 
 # Build settings
 markdown: kramdown
