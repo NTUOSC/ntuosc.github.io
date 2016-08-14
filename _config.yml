@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Gravity
-email: hemangsk@gmail.com
-description: The Liberal Jekyll Theme
+title: 台灣大學開源社
+email: poke@ntuosc.org
+description: 以學生角度出發，推動資訊透明、開放源碼的社群
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: hemang_kumar
-github_username:  hemangsk
+url: "http://ntuosc.org" # the base hostname & protocol for your site
+twitter_username: Fumitsuki0802
+github_username:  NTUOSC
 
 # Build settings
 markdown: kramdown
