@@ -10,9 +10,19 @@ title: 台灣大學開源社
 email: poke@ntuosc.org
 description: 以學生角度出發，推動資訊透明、開放源碼的社群
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ntuosc.org" # the base hostname & protocol for your site
+url: "" #"http://ntuosc.org" # the base hostname & protocol for your site
 twitter_username: Fumitsuki0802
 github_username:  NTUOSC
+
+# NTUOSC info
+course:
+  weekday: 星期五
+  starttime: "18:30"
+  endtime: "21:00"
+fb:
+  page: https://www.facebook.com/NTUOSC/
+  community: https://www.facebook.com/groups/ntuosc/
+
 
 # Build settings
 markdown: kramdown
