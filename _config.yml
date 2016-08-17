@@ -13,5 +13,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ntuosc.org/" # the base hostname & protocol for your site
 github_username: NTUOSC
 
+# NTUOSC info
+course:
+  weekday: 星期五
+  starttime: "18:30"
+  endtime: "21:00"
+fb:
+  page: https://www.facebook.com/NTUOSC/
+  community: https://www.facebook.com/groups/ntuosc/
+  username: NTUOSC
+
 # Build settings
 markdown: kramdown

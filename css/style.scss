@@ -402,6 +402,7 @@ pre {
   font-family: 'Josefin Sans';
   font-weight: 300;
   padding-top: 5em;
+  text-align: center;
 }
 .page-title {
   text-transform: uppercase;
@@ -582,10 +583,11 @@ pre {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    /*font-size: 1.5rem;*/
   }
   h2 {
     font-size: 32px;
+    margin-bottom: 20px;
     @include media-query($on-laptop) {
       font-size: 28px;
     }
