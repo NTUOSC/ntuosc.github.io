@@ -366,6 +366,19 @@ th, td {
   text-indent: 3px;
 }
 /**
+ * Images class
+ */
+.avatar{
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.poster{
+    max-height: 500px;
+    max-width: 300px;
+}
+/**
  * Site header
  */
 .site-header {
