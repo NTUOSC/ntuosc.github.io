@@ -30,6 +30,8 @@ tagline: ""
 ### 社團幹部成員
 
 - 社長
+
+    <div><img src="/images/avatar/fumitsuki.jpg" alt="社長 蔡孟穎" class="avatar"></div>
    - 蔡孟穎 (Fumitsuki)
    - 圖資系 大二
 
