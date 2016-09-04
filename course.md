@@ -42,6 +42,10 @@ tagline: ""
 #### 104-1
 
 
+<img src="/images/posters/2015-09-25-regular-expression.png" alt="婉君們的瑞士刀" class="poster">
+<img src="/images/posters/2015-10-23-git-version-control.png" alt="失去的正直和善良都能找回來" class="poster">
+<img src="/images/posters/2015-11-20-python-little-prince.png" alt="Python" class="poster">
+<img src="/images/posters/2015-12-04-linux-virtual-machine.png" alt="Linux and VirtualMachine" class="poster">
 
 <br/>
 
@@ -89,3 +93,10 @@ tagline: ""
 |12/19/2014|QML的積木樂園|RSChiang 活大202||
 |12/26/2014|[開源人的約定之劍](https://speakerdeck.com/rschiang/the-open-source-license-of-promised-victory)|RSChiang 活大202||
 
+<img src="/images/posters/2014-09-26-welcome-party.png" alt="迎新茶會" class="poster">
+<img src="/images/posters/2014-10-03-python-tutorial.png" alt="麻瓜也能上手的爬說語" class="poster">
+<img src="/images/posters/2014-10-17-python-tutorial-revisited.png" alt="一秒轉職巫師的爬說語" class="poster">
+<img src="/images/posters/2014-10-18-vim-workshop.png" alt="VIM 手指健康操" class="poster">
+<img src="/images/posters/2014-10-24-css-tutorial.png" alt="滾動的CSS" class="poster">
+<img src="/images/posters/2014-10-31-git-tutorial.png" alt="穿越時空的版本控制" class="poster">
+<img src="/images/posters/2014-11-21-php-tutorial.png" alt="如何把大象放進冰箱裡？" class="poster">
