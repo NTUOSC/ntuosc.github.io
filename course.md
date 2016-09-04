@@ -44,12 +44,12 @@ tagline: ""
 |社課日期|社課內容|地點|
 |:-------|:------:|:-------:|
 |2/26/2015|開學週|活大沙發區|
-|3/5/2015|期初大會|二活706|
-|3/12/2015|分組＆杜鵑花節討論|活大103|
+|3/5/2015|[開源社期初大亂鬥](https://ntuosc.hackpad.com/v7g8dTxCzXm)|二活706|
+|3/12/2015|[開源社課 Live #1](https://ntuosc.hackpad.com/QGrAzEeYPPX)|活大103|
 |3/19/2015|參加 OCF 開放資料之夜|北科大|
-|3/26/2015|Node.js / Slack / 議題討論|大陸社|
+|3/26/2015|[Node.js / Slack / 議題討論](https://ntuosc.hackpad.com/lAHRTf5kiCZ)|大陸社|
 |4/2/2015|假日||
-|4/9/2015|專案確認方向、建立 Slack 頻道|活大103|
+|4/9/2015|[專案確認方向、建立 Slack 頻道](https://ntuosc.hackpad.com/1hIipg3QL3o)|活大103|
 |4/16/2015|期中考預備周|活大103|
 |4/23/2015|期中考周||
 |4/30/2015||新生503|
@@ -61,4 +61,25 @@ tagline: ""
 |6/11/2015||活大202|
 |6/18/2015|期末考預備周|活大103|
 |6/25/2015|期末考周||
+
+<br/>
+
+#### 103-1
+
+|社課日期|社課內容|講師＆地點|Hackpad|
+|:-------|:------:|
+|9/19/2014|迎新茶會|二活601||
+|9/26/2014|迎新茶會|霖澤1402||
+|10/3/2014|[麻瓜也能學會的爬說語](https://speakerdeck.com/rschiang/ma-gua-ye-neng-shang-shou-de-pa-shuo-yu-kai-yuan-she-python-ru-men)|RSChiang 計中212|[103-1 開源社課 LIVE#1](https://ntuosc.hackpad.com/qUW4b03Buet)|
+|10/17/2014|[一秒轉職巫師的爬說語](https://speakerdeck.com/rschiang/miao-zhuan-zhi-wu-shi-de-pa-shuo-yu-kai-yuan-she-python-ying-yong)|RSChiang 計中212|[103-1 開源社課 LIVE#2](https://ntuosc.hackpad.com/335PkqE21Up) [錄影](https://www.youtube.com/watch?v=uBJiGC-qGCw)|
+|10/18/2014|[VIM 手指健康操](https://www.youtube.com/watch?v=xmMwKsIbxJs)|dv 二活701||
+|10/24/2014|[滾動的CSS](https://www.youtube.com/watch?v=9tPpcNwrheo)|翔子 新生302|[103-1 開源社課 LIVE#3](https://ntuosc.hackpad.com/Doyu9qg1kgu)|
+|10/31/2014|[穿越時空的版本控制 Git](https://speakerdeck.com/rschiang/chuan-yue-shi-kong-de-ban-ben-kong-zhi-git)|RSChiang 新生302|[103-1 開源社課 LIVE#4](https://ntuosc.hackpad.com/99ErR5VPgMD)|
+|11/7/2014|期中考|||
+|11/14/2014|期中考|||
+|11/21/2014|[如何把大象放進冰箱裡？PHP入門](https://speakerdeck.com/shouko/ru-he-ba-da-xiang-fang-jin-bing-xiang-li-kai-yuan-she-phpru-men)|翔子 活大202|[103-1 開源社課 LIVE#5](https://ntuosc.hackpad.com/LclBTnJ1KjA) [錄影](https://www.youtube.com/watch?v=vB9wQNXIg-U)|
+|11/28/2014|[把大象放進冰箱裡然後咧？](https://www.youtube.com/watch?v=dkyse0In6dw)|翔子 活大202|[103-1 開源社課 LIVE#6](https://ntuosc.hackpad.com/j6tSQNWPlTB)|
+|12/5/2014|[QML的積木樂園](https://www.youtube.com/watch?v=XNiUa4COnBA)|RSChiang 活大202|[103-1  開源社課 LIVE#7](https://ntuosc.hackpad.com/HfKiFeMIzf7)|
+|12/19/2014|QML的積木樂園|RSChiang 活大202||
+|12/26/2014|[開源人的約定之劍](https://speakerdeck.com/rschiang/the-open-source-license-of-promised-victory)|RSChiang 活大202||
 
