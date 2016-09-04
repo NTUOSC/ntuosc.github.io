@@ -8,7 +8,7 @@
 # Site settings
 title: 臺灣大學開源社
 email: poke@ntuosc.org
-description: 開源，改造全世界
+description: 開源，集結世界的智慧結晶
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ntuosc.org/" # the base hostname & protocol for your site
 github_username: NTUOSC
