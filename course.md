@@ -41,11 +41,28 @@ tagline: ""
 
 #### 104-1
 
+|社課日期|社課內容|講者＆地點|
+|:-------|:------:|:-------:|
+|9/18/2015|迎新|RS與Viktor 新生302|
+|9/25/2015|[婉君們的瑞士刀](https://ntuosc.hackpad.com/104-1-Live-1-2mdxS829ipm)|Terry 正規表示式 活大202|
+|10/2/2015|1 與 0 的轉移—網羅的世界|Qbane 二活702|
+|10/16/2015|[JavaScript: 網羅的靈魂](https://ntuosc.hackpad.com/104-1-3--mmYJjjM0rcs)|翔子 活大103|
+|10/23/2015|失去的正直與善良都能找回來！|松鼠 二活606|
+|10/30/2015|實現想像的畫筆：那些化不可能為可能的開發利器|Viktor 二活702|
+|11/27/2015|[Python](https://ntuosc.hackpad.com/104-1-Python-Rocks-qAD2yS7KO5E)|Viktor 二活603+703|
+|12/4/2015|Virtual Machine|活大202|
+|12/11/2015|官網改造計劃|二活602|
+|12/18/2015|割闌尾計劃講座|新生301|
+|12/25/2015||二活603|
+|1/15/2015|期末聚餐|莫凡彼|
+
+<br/>
 
 <img src="/images/posters/2015-09-25-regular-expression.png" alt="婉君們的瑞士刀" class="poster">
 <img src="/images/posters/2015-10-23-git-version-control.png" alt="失去的正直和善良都能找回來" class="poster">
-<img src="/images/posters/2015-11-20-python-little-prince.png" alt="Python" class="poster">
 <img src="/images/posters/2015-12-04-linux-virtual-machine.png" alt="Linux and VirtualMachine" class="poster">
+<img src="/images/posters/2015-12-18-appendectomy-project.png" alt="割闌尾計畫講座" class="poster">
+<img src="/images/posters/2015-11-20-python-little-prince.png" alt="Python" class="poster">
 
 <br/>
 
@@ -93,10 +110,12 @@ tagline: ""
 |12/19/2014|QML的積木樂園|RSChiang 活大202||
 |12/26/2014|[開源人的約定之劍](https://speakerdeck.com/rschiang/the-open-source-license-of-promised-victory)|RSChiang 活大202||
 
+<br/>
+
 <img src="/images/posters/2014-09-26-welcome-party.png" alt="迎新茶會" class="poster">
 <img src="/images/posters/2014-10-03-python-tutorial.png" alt="麻瓜也能上手的爬說語" class="poster">
 <img src="/images/posters/2014-10-17-python-tutorial-revisited.png" alt="一秒轉職巫師的爬說語" class="poster">
 <img src="/images/posters/2014-10-18-vim-workshop.png" alt="VIM 手指健康操" class="poster">
+<img src="/images/posters/2014-11-21-php-tutorial.png" alt="如何把大象放進冰箱裡？" class="poster">
 <img src="/images/posters/2014-10-24-css-tutorial.png" alt="滾動的CSS" class="poster">
 <img src="/images/posters/2014-10-31-git-tutorial.png" alt="穿越時空的版本控制" class="poster">
-<img src="/images/posters/2014-11-21-php-tutorial.png" alt="如何把大象放進冰箱裡？" class="poster">
