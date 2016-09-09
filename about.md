@@ -39,6 +39,7 @@ tagline: ""
     <div><img src="/images/avatar/xiupang.jpg" alt="研究組長 許恆與" class="avatar"></div>
    - 許恆與
 - 推廣組長
+    <div><img src="/images/avatar/bryce.jpg" alt="推廣組長 曹鼎" class="avatar"></div>
    - 曹鼎
 - 行政組長
     <div><img src="/images/avatar/jiaiao.jpg" alt="行政組長 陳佳祐" class="avatar"></div>
