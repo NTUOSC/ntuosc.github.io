@@ -6,8 +6,8 @@
 
 
 // Our variables
-$base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: "Source Han Sans TC", "Noto Sans CJK TC", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -138,6 +138,11 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+}
+
+h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 1px rgba(0,0,0,0.1) solid;
 }
 
 
@@ -400,10 +405,9 @@ th, td {
   }
 }
 .site-description {
-  font-size: 14px;
+  font-size: $small-font-size;
   letter-spacing: 2px;
-  text-indent: 6px;
-  font-family: 'Josefin Sans';
+  font-family: serif;
 }
 .exclamationMark {
   padding-left: 2em;
