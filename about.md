@@ -30,17 +30,17 @@ tagline: ""
 ### 社團幹部成員
 
 - 社長
-
-    <div><img src="/images/avatar/fumitsuki.jpg" alt="社長 蔡孟穎" class="avatar"></div>
-   - 蔡孟穎 (Fumitsuki)
-   - 圖資系 大二
-
-- 研究組長
-    <div><img src="/images/avatar/xiupang.jpg" alt="研究組長 許恆與" class="avatar"></div>
-   - 許恆與
-- 推廣組長
-    <div><img src="/images/avatar/bryce.jpg" alt="推廣組長 曹鼎" class="avatar"></div>
-   - 曹鼎
+    <div><img src="/images/avatar/107-01.jpg" alt="社長 謝至宥" class="avatar"></div>
+   - 謝至宥
+- 副社長
+    <div><img src="/images/avatar/107-02.jpg" alt="副社長 林家康" class="avatar"></div>
+   - 林家康
 - 行政組長
-    <div><img src="/images/avatar/jiaiao.jpg" alt="行政組長 陳佳祐" class="avatar"></div>
-   - 陳佳佑
+    <div><img src="/images/avatar/107-03.jpg" alt="行政組長 林子期" class="avatar"></div>
+   - 林子期
+- 研究組長
+    <div><img src="/images/avatar/107-04.jpg" alt="研究組長 周楷翔" class="avatar"></div>
+   - 周楷翔
+- 推廣組長
+    <div><img src="/images/avatar/107-05.jpg" alt="推廣組長 蔡孟穎" class="avatar"></div>
+   - 蔡孟穎
