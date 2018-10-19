@@ -16,7 +16,7 @@ tagline: ""
 |09/28/2018|二活605|[Python](https://hackmd.io/p/rkDpuwsKm#/) by 皮皮|
 |10/05/2018|二活604|正規表達式 by 皮皮|
 |10/12/2018|二活604|[Linux](https://drive.google.com/file/d/1AutxE71jsoWWHpqWeAjT05tXvzqPf8Rt/view) by 柴犬, [共筆](https://hackmd.io/1bFnleozSEeJcQOnN6hkDQ)|
-|10/19/2018|二活704|Git by Allen|
+|10/19/2018|二活704|[Git](https://docs.google.com/presentation/d/1IMaKqRMjIyBfY5vvOPoMdxVPbTAKkYjiSF8yBhDW50o/edit#slide=id.p) by Allen|
 |10/26/2018|二活605|Vim by doraeric|
 |11/02/2018||期中考準備週|
 |11/09/2018||期中考週|
