@@ -21,7 +21,7 @@ tagline: ""
 |11/02/2018||期中考準備週|
 |11/09/2018||期中考週|
 |11/16/2018|二活605|[從0開始HTML、CSS](https://yuren-tw.github.io/NTUOSC_HTMLandCSS/#/) by 皮皮|
-|11/23/2018|二活605|JavaScript by Qbane|
+|11/23/2018|二活605|[JavaScript](https://paper.dropbox.com/doc/Node.js-in-2018-JS--ASWCuKUyAJ3S4L3m8rCgMJCuAg-4qZ3enfLKpElOt57zAdql) by Qbane|
 |11/30/2018|??|HTTP、RESTful 觀念與實作 by Denny|
 |12/07/2018|二活605|區塊鍊 by 陳品|
 |12/14/2018|二活605|資訊安全 by Inndy|
