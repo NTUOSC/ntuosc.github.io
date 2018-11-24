@@ -41,6 +41,8 @@ tagline: ""
 - 研究組長
     <div><img src="/images/avatar/107-04.jpg" alt="研究組長 周楷翔" class="avatar"></div>
    - 周楷翔
+    <div><img src="/images/avatar/firedoge.jpg" alt="研究組員 楊政憲" class="avatar"></div>
+   - 楊政憲
 - 推廣組長
     <div><img src="/images/avatar/107-05.jpg" alt="推廣組長 蔡孟穎" class="avatar"></div>
    - 蔡孟穎
