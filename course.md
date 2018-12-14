@@ -24,7 +24,7 @@ tagline: ""
 |11/23/2018|二活605|[JavaScript](https://paper.dropbox.com/doc/Node.js-in-2018-JS--ASWCuKUyAJ3S4L3m8rCgMJCuAg-4qZ3enfLKpElOt57zAdql) by Qbane|
 |11/30/2018|台科大TR 517|[HTTP、RESTful 觀念與實作](https://denny.one/the-net/) by Denny|
 |12/07/2018|二活605|[Solidity & DAPP 開發](https://docs.google.com/presentation/d/1TgBi4lEsMMBW8JB0xsAYjc8NWY5qkY2HkT2RTrEMh58/edit) by 陳品|
-|12/14/2018|二活605|資訊安全 by Inndy|
+|12/14/2018|二活605|[資訊安全：麻瓜的黑魔法防禦術](https://speakerdeck.com/inndy/zi-xun-an-quan-ma-gua-de-hei-mo-fa-fang-yu-shu) by Inndy|
 |12/21/2018|二活605|開源授權 by RS|
 |12/28/2018||期末考準備週|
 |01/04/2019||期末考週|
